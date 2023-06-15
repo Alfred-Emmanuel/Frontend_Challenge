@@ -87,10 +87,8 @@ nav {
   object-fit: cover;
 }
 
-.sidebar {
-}
-
-.upper-sidebar {
+.upper-sidebar,
+.lower-sidebar {
   height: 45vh;
   border-right: 1px solid var(--light-gray);
   width: 20%;
@@ -104,8 +102,64 @@ nav {
 
 .upper-sidebar div h1 {
   padding-left: 10px;
+  font-size: 1.2rem;
 }
 
 .home {
   color: var(--normal-blue);
+}
+
+.lower-sidebar {
+  border-top: 1px solid var(--light-gray);
+}
+
+.homework {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin-top: 20px;
+}
+
+.homework-icons {
+  color: var(--normal-blue);
+}
+
+.courses {
+  margin-top: 10px;
+  padding: 8px;
+}
+
+.outer_percentage_box {
+  width: 90%;
+  height: 5px;
+  background-color: var(--light-gray);
+  border-radius: 10px;
+}
+
+.inner_percentage_box {
+  height: 5px;
+  background-color: var(--normal-blue);
+  border-radius: 10px;
+}
+
+.eighty-percent {
+  width: 80%;
+}
+
+.sixty-percent {
+  width: 60%;
+}
+
+.forty-percent {
+  width: 40%;
+}
+
+.lower-sidebar h1 {
+  font-size: 1.1rem;
+}
+
+.score {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
 }
