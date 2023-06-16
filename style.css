@@ -77,7 +77,7 @@ nav {
   width: 30%;
   height: 40%;
   border-radius: 7px;
-  background-color: var(--light-gray);
+  background-color: var(--sky-blue);
   border: none;
   position: absolute;
   left: 30%;
@@ -183,7 +183,7 @@ nav {
 .subjects {
   display: flex;
   width: 90%;
-  height: 6%;
+  height: 5%;
   margin: 0 auto;
   justify-content: space-between;
   margin-top: 3%;
@@ -192,7 +192,7 @@ nav {
 
 .subjects h1 {
   font-size: 0.9rem;
-  background-color: var(--light-gray);
+  background-color: var(--sky-blue);
   padding: 10px;
   border-radius: 10px;
 }
@@ -225,7 +225,7 @@ nav {
 .article {
   /* width: 50%; */
   height: 30vh;
-  background-color: var(--light-gray);
+  background-color: var(--sky-blue);
   border-radius: 10px;
 }
 
@@ -251,7 +251,7 @@ nav {
 }
 
 .article-timer {
-  background-color: var(--mixed-blue);
+  background-color: var(--light-gray);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -337,14 +337,12 @@ nav {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  /* margin: 0; */
-  /* padding: 5px; */
 }
 
 .themes {
   flex-basis: 49%;
   height: 14.4vh;
-  background-color: var(--light-gray);
+  background-color: var(--sky-blue);
   margin-bottom: 10px;
   border-radius: 10px;
   text-align: center;
@@ -367,4 +365,164 @@ nav {
 
 .university {
   width: 130px;
+}
+
+.vids-and-teachers {
+  width: 90%;
+  height: 39vh;
+  margin: 0 auto;
+  margin-top: 2%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.videos {
+  width: 65%;
+}
+
+.videos-container {
+  display: flex;
+  width: 100%;
+  height: 34.5vh;
+  gap: 10px;
+}
+
+.teachers {
+  width: 30%;
+}
+
+.teachers-container {
+  width: 100%;
+}
+
+.vid-1-container {
+  border-radius: 10px;
+  width: 65%;
+  background-color: var(--sky-blue);
+  padding-top: 15px;
+  padding-left: 25px;
+  background-color: var(--normal-blue);
+}
+
+.vid-1-container * {
+  background: none;
+  color: var(--fake-white);
+}
+
+.vid-1-title {
+  margin-bottom: 135px;
+}
+
+.vid-duration {
+  position: absolute;
+  left: 48%;
+  top: 89%;
+  background-color: var(--mixed-blue) !important;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 1rem !important;
+}
+
+.vid-2-container {
+  width: 27%;
+}
+
+.vid-2-container * {
+  background: none;
+  color: var(--fake-white);
+  opacity: 0.9;
+}
+
+.vid2-first-container {
+  margin-bottom: 10px;
+  height: 48%;
+  background-color: var(--normal-blue);
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-top: 8px;
+}
+
+.vid-description {
+  font-size: 1rem;
+  background: none;
+  padding-bottom: 24px;
+}
+
+.vid2-photo-and-name {
+  display: flex;
+  align-items: center;
+}
+
+.vid-name {
+  padding: 0;
+  font-size: 0.85rem;
+}
+
+.vid2-second-container {
+  margin-bottom: 10px;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-top: 8px;
+  height: 48%;
+  background-color: var(--normal-blue);
+}
+
+.vid-1-container h1 {
+  font-size: 1.1rem;
+  background: none;
+}
+
+.title h1 {
+  font-size: 1.2rem;
+}
+
+.title span {
+  color: var(--normal-blue);
+  font-size: 1.4rem;
+}
+
+.teachers-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.teachers-title h1 {
+  font-size: 1.2rem;
+}
+
+.name-photo-rating {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3%;
+}
+
+.name-photo-rating * {
+  background: none;
+}
+
+.name-photo-rating h4 {
+  color: var(--normal-blue);
+  font-size: 1.3rem;
+}
+
+.name {
+  margin-left: -65px;
+}
+
+.name h1 {
+  font-size: 1.2rem;
+}
+
+.teacher-photo-container {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.teacher-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
